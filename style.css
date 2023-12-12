@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background-color: black;
+  height: 100%;
+}
+
+.cardContainer {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.cardBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.cardBox__img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+
+.cardBox__h1 {
+  margin-bottom: -3px;
+  color: white;
+}
+
+.cardBox__span {
+  color: rgb(140, 97, 140);
+}
+
+.cardBox__p {
+  color: white;
+}
+
+.cardBox__tag {
+  width: 600px;
+  border-top: 1px solid white;
+}
+
+.cardBox__tag__ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+  margin: 0;
+}
+
+.cardBox__tag__ul li {
+  background-color: gray;
+  color: white;
+  border-radius: 3px;
+  padding: 5px 7px;
+  margin-top: 12px;
+}
+
+.cardBox__tag__ul li:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
